@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(#B8E7FA, #E6E6FA);
+  line-height: 1.6;
+}
+
+.container-header {
+  background: #f5f7fa;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.logo span {
+  color: orange;
+}
+
+.btn {
+  background: #ffc107;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+  background: red;
+}
+
+.hero {
+  padding: 60px 0;
+  background: #eaf3ff;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 12px;
+}
+
+.hero-img {
+  max-width: 150px;
+}
+
+.hero h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+.hero p {
+  color: #555;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.why-dev, .inspiration, .targets {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.coding-world {
+  padding: 60px 0;
+  background: #eaf3ff;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 12px;
+}
+
+.coding-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.coding-box img {
+  max-width: 300px;
+}
+
+.coding-box h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.coding-box p {
+  color: #555;
+  max-width: 600px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.coding-box .text {
+  text-align: left; 
+}
+
+
+.coding-box .btn {
+  display: inline-block; 
+  margin-top: 20px;
+}
+
+
+.container p{
+  color: #555;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.inspiration 
+.video{
+  padding: 60px 0;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-radius: 12px;
+  border: 1px solid slategray;
+}
+
+.targets .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background: linear-gradient(#f4f9ff, #c9f1ff);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  max-width: 50px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: white;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  padding: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social a {
+  margin: 0 10px;
+}
